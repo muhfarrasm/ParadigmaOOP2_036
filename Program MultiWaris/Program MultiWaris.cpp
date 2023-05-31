@@ -32,10 +32,10 @@ class pelajar : private manusia, public orang {
 public:
 	string sekolah;
 
-	pelajar(string pNama, string pJenisKelamin, string psekolah) :
+	pelajar(string pNama, string pJenisKelamin, string pSekolah) :
 		orang(pNama),
 		manusia(pJenisKelamin),
-		sekolah(psekolah) {
+		sekolah(pSekolah) {
 		cout << "pelajar dibuat\n" << endl;
 	}
 	~pelajar() {
@@ -46,3 +46,10 @@ public:
 			+ jenisKelamin + " dari sekolah " + sekolah + "\n\n";
 	}
 };
+
+int main() {
+	pelajar siswa("andi laksono", "laki-laki", "SMAN 1 Bantul");
+	cout << siswa.perkenalan();
+
+	return 0;
+}
