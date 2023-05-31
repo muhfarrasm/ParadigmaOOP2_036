@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program noOverriding", "Pro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program noPewarisan", "Program noPewarisan\Program noPewarisan.vcxproj", "{4A859DE1-0FEE-4374-BE32-84C62BE5E4A3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Program Enkapsulasi", "Program Enkapsulasi\Program Enkapsulasi.vcxproj", "{9CCB94F5-A856-4CBA-9F65-867ACAA3D4B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{4A859DE1-0FEE-4374-BE32-84C62BE5E4A3}.Release|x64.Build.0 = Release|x64
 		{4A859DE1-0FEE-4374-BE32-84C62BE5E4A3}.Release|x86.ActiveCfg = Release|Win32
 		{4A859DE1-0FEE-4374-BE32-84C62BE5E4A3}.Release|x86.Build.0 = Release|Win32
+		{9CCB94F5-A856-4CBA-9F65-867ACAA3D4B1}.Debug|x64.ActiveCfg = Debug|x64
+		{9CCB94F5-A856-4CBA-9F65-867ACAA3D4B1}.Debug|x64.Build.0 = Debug|x64
+		{9CCB94F5-A856-4CBA-9F65-867ACAA3D4B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{9CCB94F5-A856-4CBA-9F65-867ACAA3D4B1}.Debug|x86.Build.0 = Debug|Win32
+		{9CCB94F5-A856-4CBA-9F65-867ACAA3D4B1}.Release|x64.ActiveCfg = Release|x64
+		{9CCB94F5-A856-4CBA-9F65-867ACAA3D4B1}.Release|x64.Build.0 = Release|x64
+		{9CCB94F5-A856-4CBA-9F65-867ACAA3D4B1}.Release|x86.ActiveCfg = Release|Win32
+		{9CCB94F5-A856-4CBA-9F65-867ACAA3D4B1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
